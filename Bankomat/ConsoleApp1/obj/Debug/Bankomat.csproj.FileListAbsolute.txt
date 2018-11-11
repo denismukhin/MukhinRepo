@@ -1,0 +1,14 @@
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Bankomat.csprojAssemblyReference.cache
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Bankomat.csproj.CoreCompileInputs.cache
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\dumuk\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\bin\Debug\Bankomat.exe.config
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\bin\Debug\Bankomat.exe
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\bin\Debug\Bankomat.pdb
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\obj\Debug\Bankomat.csprojAssemblyReference.cache
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\obj\Debug\Bankomat.csproj.CoreCompileInputs.cache
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\obj\Debug\Bankomat.exe
+c:\Users\dumuk\source\repos\Bankomat\ConsoleApp1\obj\Debug\Bankomat.pdb
