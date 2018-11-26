@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+
+namespace Luna
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("insert card number");
+            string card = Console.ReadLine();
+            string pattern = @"\D";
+            Regex regex = new Regex(pattern);
+            card = regex.Replace(card, "");
+            Console.WriteLine(card);
+            Console.ReadLine();
+            Luna(card);
+        }
+
+        static void Luna(string card)
+        {
+            int length = card.Length;
+            int i = 0;
+            int mass = 0;
+            int sum = 0;
+            Console.WriteLine(length);
+            if (length % 2 == 0)
+            {
+                i = 0;
+            }
+            else
+            {
+                i = 1;
+            }
+
+            while (i < length)
+            {
+                mass = (int)(card[i] - '0');
+                mass = mass * 2;
+                if (mass > 9)
+                {
+                    mass = mass - 9;
+                }
+
+                sum = sum + mass;
+                i = i + 2;
+            }
+            Console.WriteLine(sum);
+            if (sum % 10 == 0)
+            {
+                Console.WriteLine("Correct");
+            }
+            else
+            {
+                Console.WriteLine("Incorrect");
+            }
+
+            Console.ReadLine();
+
+        }
+    }
+}
