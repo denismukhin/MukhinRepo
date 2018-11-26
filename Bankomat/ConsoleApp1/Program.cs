@@ -24,7 +24,26 @@ namespace ConsoleApp1
 
             void mainMenu()
             {
-                bankomat.getCountByName("Debit").setBlocked(bankomat.getCountByName("Credit").getMoney() <= -20000 ? true : false);
+                //bankomat.getCountByName("Debit").setBlocked(bankomat.getCountByName("Credit").getMoney() <= -20000 ? true : false);
+                //Attribute atr = Attribute.GetCustomAttribute(barmenTask.GetType(), typeof(IsBarmenTask));
+
+                foreach (object attr in bankomat.getCountByName("Debit").GetType().GetCustomAttributes(false))
+                {
+                    if (attr is IsBlock)
+                    {
+                        Attribute attributeTask =
+                            Attribute.GetCustomAttribute(barmenTask.GetType(), typeof(IsBarmenTask));
+                        IsBarmenTask isBarmenTask = (IsBarmenTask)attributeTask;
+
+                        if (isBarmenTask.val)
+                        {
+                            barmenTasks.Enqueue(barmenTask);
+                            break;
+                        }
+                    }
+                }
+
+
                 while (true)
                 {
                     Console.WriteLine("Выберите счет");

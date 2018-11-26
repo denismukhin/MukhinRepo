@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F5DA20C-C1EA-412A-A4EB-0DFE3DD54FD7}</ProjectGuid>
+    <ProjectGuid>{0A146886-0945-43AF-B372-89F6AA3FF09D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Bankomat</RootNamespace>
-    <AssemblyName>Bankomat</AssemblyName>
+    <RootNamespace>Lift</RootNamespace>
+    <AssemblyName>Lift</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bankomat.cs" />
-    <Compile Include="Count.cs" />
-    <Compile Include="Credit.cs" />
-    <Compile Include="Current.cs" />
-    <Compile Include="Debit.cs" />
-    <Compile Include="IsBlock.cs" />
+    <Compile Include="Level.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
